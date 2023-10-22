@@ -1,0 +1,26 @@
+{
+	title: "Storage Drawers",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: 0.5d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"a009e745"
+	],
+	tasks: [{
+		uid: "577c6bd6",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1b7da9cb",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "StorageDrawers"
+	}]
+}

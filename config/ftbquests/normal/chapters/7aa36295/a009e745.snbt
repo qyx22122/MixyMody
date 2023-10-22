@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "2de909f1",
+		type: "checkmark",
+		title: "Start"
+	}],
+	rewards: [{
+		uid: "8c488b51",
+		type: "ftbmoney:money",
+		ftb_money: 3L
+	}]
+}

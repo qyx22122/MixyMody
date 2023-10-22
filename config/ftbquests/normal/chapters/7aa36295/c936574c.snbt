@@ -1,0 +1,21 @@
+{
+	title: "Chisel",
+	icon: "chisel:chisel_iron",
+	x: 1.5d,
+	y: -0.5d,
+	shape: "gear",
+	dependencies: [
+		"a009e745"
+	],
+	tasks: [{
+		uid: "9ef24dbd",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4d101f63",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "Chisel"
+	}]
+}

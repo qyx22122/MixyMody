@@ -1,0 +1,21 @@
+{
+	title: "Thaumcraft",
+	icon: "thaumcraft:goggles",
+	x: -0.5d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"a009e745"
+	],
+	tasks: [{
+		uid: "d5325c51",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ff9802f1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "Thaumcraft"
+	}]
+}

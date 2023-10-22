@@ -1,0 +1,21 @@
+{
+	title: "NuclearCraft",
+	icon: "nuclearcraft:fission_controller_new_fixed",
+	x: 0.5d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"a009e745"
+	],
+	tasks: [{
+		uid: "5fc794bc",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a3a46174",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "NuclearCraft"
+	}]
+}
